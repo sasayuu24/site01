@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Document</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <link rel="icon" href="../image/logo.png">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="../index.html">株式会社プロセス</a>
+    </h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">ホーム</a></li>
+        <li><a href="../text/bout.html">取り組み</a></li>
+        <li><a href="../text/inquiry.html#info">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2 class="title">ご利用の流れ</h2>
+  <div class="step"></div>
+  <div class="wrapper">
+    <main>
+      <section>
+        <h2 class="info" id="info">お問い合わせ</h2>
+        <table>
+          <tr>
+            <th>
+              <label for="name">お名前</label>
+            </th>
+            <td>
+              <input type="text" name="name" id="name" placeholder="山田 太郎" required>
+              <span class="caution">※入力必須</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label for="mail">メールアドレス</label>
+            </th>
+            <td>
+              <div class="mail_wrap">
+                <input type="text" name="mail" id="mail"><br>
+              </div>
+              <div class="mail_wrap">
+                <input type="text" name="re_mail">
+                <span class="caution">※再入力</span>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <th>性別</th>
+            <td>
+              <label>
+                <input type="radio" name="gender" value="man">男性
+              </label>
+              <label>
+                <input type="radio" name="gender" value="woman">女性
+              </label>
+              <label>
+                <input type="radio" name="gender" value="none" checked>回答しない
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+            <th>都道府県</th>
+            <td>
+              <select name="local">
+                <option>選択してください</option>
+                <option value="sapporo">札幌</option>
+                <option value="tokyo">東京</option>
+                <option value="osaka">大阪</option>
+                <option value="fukuoka">福岡</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="comment">ご意見・お問い合せ</label>
+            </th>
+            <td>
+              <textarea name="comment" rows="6" id="comment" placeholder="ご意見・お問い合せをこちらにご記入お願いします。"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="送信ボタン">
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <h3 class="minute">営業時間</h3>
+    <div class="time">
+      <p>平日 13:00~17:00</p>
+      <p>土・日・祝日 13:00~19:00</p>
+    </div>
+    <h3 class="inc">株式会社プロセス</h3>
+    <div class="last_page">
+      <div class="page">
+        <div class="page_row">
+          <a href="../index.html">目的・理念</a>
+          <a href="../index.html#title">施設紹介</a>
+          <a href="../text/bout.html">取り組み</a>
+        </div>
+        <div class="page_row">
+          <a href="../text/bout.html#staff">先生紹介</a>
+          <a href="../text/inquiry.html">ご利用の流れ</a>
+          <a href="../text/inquiry.html#info">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <a href="#">
+        <img src="../image/phone.png" width="1024" height="768" alt="電話">
+      </a>
+      <a href="#">
+        <img src="../image/mail.png" width="1024" height="768" alt="メール">
+      </a>
+    </div>
+    <div class="sns">
+      <img src="../image/youtube.png" width="205" height="175" alt="youtubeのアカウント">
+      <img src="../image/instagram.png" width="191" height="195" alt="instagramのアカウント">
+      <img src="../image/facebook.png" width="209" height="183" alt="facebookのアカウント">
+    </div>
+    <br>
+    <small>@process inc.</small>
+  </footer>
+
+</body>
+
+</html>
